@@ -518,33 +518,30 @@
       table { display: block; overflow-x: auto; table-layout: auto; }
       th, td { min-width: 8.5rem; }
     }
-    /* ボタン用スタイル */
-    .cta-wrapper {
-      margin: 4rem 0 2rem;
-      text-align: center;
-    }
-    .btn-orange {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #ff8c00 0%, #e65c00 100%);
-      color: #ffffff !important;
-      font-size: 1.15rem;
-      font-weight: 900;
-      text-decoration: none;
-      padding: 1.1rem 2.8rem;
-      border-radius: 999px;
-      box-shadow: 0 4px 14px rgba(230, 92, 0, 0.3);
-      transition: all 0.2s ease;
-    }
-    .btn-orange:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 18px rgba(230, 92, 0, 0.4);
-      background: linear-gradient(135deg, #ff991a 0%, #ff6600 100%);
-    }
-    @media print {
-      .cta-wrapper { display: none; } /* 印刷時はボタンを非表示にする場合 */
-    }
+   /* ボタン用スタイル */
+.cta-wrapper {
+margin: 4rem 0 2rem;
+text-align: center;
+}
+.btn-orange {
+display: inline-flex !important;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #ff8c00 0%, #e65c00 100%) !important;
+color: #ffffff !important;
+font-size: 1.15rem;
+font-weight: 900;
+text-decoration: none !important;
+padding: 1.1rem 2.8rem;
+border-radius: 999px;
+box-shadow: 0 4px 14px rgba(230, 92, 0, 0.3);
+transition: all 0.2s ease;
+}
+.btn-orange:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 18px rgba(230, 92, 0, 0.4);
+background: linear-gradient(135deg, #ff991a 0%, #ff6600 100%) !important;
+}
   </style>
 </head>
 <body>
